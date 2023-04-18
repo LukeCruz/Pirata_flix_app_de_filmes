@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/login.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="../style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="../style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="../style/owl/owl.theme.default.min.css">
+    <script src="../actions/components/buttonGetStarted.js" ></script>
+
+    <title>Pirataflix</title>
+
+</head>
+<body>
+
+<div class="appMountPoint">
+    <div class="card-history">
+      <header>
+        <div class="container">
+          <h2 class="logo" alt="logo-netflix">PIRATA FLIX</h2>             
+            <div class="buttons">
+              <button role="button" class="button-top button-idioma" id="google_translate_element">
+                <i class="fas fa-play"></i>
+              Idioma
+              </button>
+              <button role="button" class="button-top button-sign" id="button-sign">
+              Sign In
+              </button>
+            </div>  
+        </div>  
+      </header>
+            
+      <main class="center-container">
+        <h1 class="text-card-animation" id="main-text">Unlimited movies, Tv , shows, and more.</h1>
+        <h3 class="subtext-card-animation">Watch anywhere. Cancel anytime.</h3>
+        <h4 class="subtext-card-animation" >Ready to watch? Enter your email to create or restart your membership.</h4>
+            <input  class="input-email" autocomplete="on" type="text" id="email-text">
+            <div class="element-email-is-required" id="element"></div>
+            <button type="submit" value="Get Started >" onclick= "validationEmail()" class="Get-started-button" id="button-get-started">
+             Get  </button>
+      </main>   
+    </div>
+                    
+     <div class="card-container-animation-1">
+        <h1 class="text-card-animation">Enjoy on your TV.</h1>
+        <h3 class="subtext-card-animation">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h3>
+        
+      <div class="card-animation-video">
+        <img class="img-tv-animation" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"/>
+        <video class="story-card-video" autoplay palysinline muted loop>
+          <source type="video/mp4" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" ></source>
+        </video>
+      </div>
+    </div>
+
+
+    <div class="card-container-animation-2">
+      <h1 class="text-card-animation">Download your shows to watch offline.</h1>
+      <h3 class="subtext-card-animation">Save your favorites easily and always have something to watch.</h3>
+    <div class="card-animation-video">
+      <img class="img-smartphone-animation" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg">
+      </img>
+    </div>
+    <div class="card-download-animation">
+      <img class="img-card-download-animation" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"></img>
+      <h2 class="text-card-download-animation">Stranger Things
+        <h4 class="sub-text-card-download-animation">Downloading...</h4>
+      </h2>
+    </div>
+  </div>
+
+  <div class="card-container-animation-3">
+    <h1 class="text-card-animation">Watch everywhere.
+    </h1>
+    <h3 class="subtext-card-animation">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</img>
+        
+        <div class="card-animation-video">
+          <img class="img-pc-animation" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png"></img>
+          </img>
+          <video class="story-card-video-pc" autoplay palysinline muted loop>
+            <source type="video/mp4" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v" ></source>
+          </video>
+        </div>
+   </div>
+
+   <div class="card-container-animation-4">
+    <h1 class="text-card-animation">Create profiles for kids.
+    </h1>
+    <h3 class="subtext-card-animation">Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</h3>
+        <div class="card-animation-kids">
+          <img class="img-kids-animation" src="https://occ-0-4389-1740.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABfpnX3dbgjZ-Je8Ax3xn0kXehZm_5L6-xe6YSTq_ucht9TI5jwDMqusWZKNYT8DfGudD0_wWVVTFLiN2_kaQJumz2iivUWbIbAtF.png?r=11f"></img>
+          </img>
+        </div>
+   </div>
+   <div class="card-container-animation-5">
+       <ol class="list-questions-ol">
+           <h1 class="text-card-animation">Frequently Asked Questions</h1>
+           
+           <li class="list-questions-li" >What is Pirata Flix?</li>
+           <li class="list-questions-li">How much does Pirata Flix cost</li>
+           <li class="list-questions-li">Where cam I watch?</li>
+           <li class="list-questions-li">How do I cancel ?</li>
+           <li class="list-questions-li">What cam I  watch on Pirata Flix</li>
+           <li class="list-questions-li">Is Pirata Flix good for kids</li>      
+        </ol>
+        <main class="email-bottom">
+            <input  class="input-email" autocomplete="on" type="text" id="email-text">
+            <div class="element-email-is-required" id="element"></div>
+            <input type="submit" value="Get Started   >" onclick= "validationEmail()" class="Get-started-button" id="button-get-started">
+      </main> 
+    </div>
+</div>   
+</div>
+</body>
+</html>
